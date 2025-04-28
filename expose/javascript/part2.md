@@ -60,7 +60,8 @@ Actually looking at how `==` and `===` are different on the inside, `==` type ca
 18. [part2-question18.js](part2-question18.js)
 
 
-19. ``` 1
+19. ``` 
+        1
         4
         3
         2
