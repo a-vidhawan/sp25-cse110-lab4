@@ -1,0 +1,2 @@
+1. The bug is that the numbers accepted fromn the user aren't coverted to integers, and so are just treated like strings. Since we don't declare variable types in Javascript the '+' operator on line 11, acts as a concatenator instead of adder.
+2. I would fix the bug by typecasting the input numbers to Numbers at the time of accepting them from the user, this lets us leave line 11 unchanged, since it will now correctly perform addition.
